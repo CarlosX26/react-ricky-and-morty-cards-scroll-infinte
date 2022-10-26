@@ -40,9 +40,9 @@ export const List = () => {
       m="0 auto"
       w="95%"
       display="flex"
-      justifyContent="normal"
+      justifyContent="space-between"
       flexWrap="wrap"
-      gap="12px"
+      gap="16px"
     >
       {listCharaters.map((e) => (
         <Card key={e.id} character={e} />
