@@ -37,12 +37,16 @@ export const List = () => {
 
   return (
     <UnorderedList
-      m="0 auto"
-      w="95%"
-      display="flex"
-      justifyContent="space-between"
-      flexWrap="wrap"
+      m="0"
+      display="grid"
+      gridTemplateColumns={[
+        "1fr",
+        "repeat(2, 1fr)",
+        "repeat(3, 1fr)",
+        "repeat(4, 1fr)",
+      ]}
       gap="16px"
+      padding="16px"
     >
       {listCharaters.map((e) => (
         <Card key={e.id} character={e} />
@@ -51,7 +55,7 @@ export const List = () => {
         border="none"
         borderRadius="50%"
         fontSize="28px"
-        bg="#63e6be"
+        bg="green.300"
         cursor="pointer"
         pos="fixed"
         bottom="20px"
