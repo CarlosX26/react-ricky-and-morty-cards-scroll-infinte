@@ -7,7 +7,7 @@ Trata-se de uma aplicação simples, onde foi possível aprender a desenvolver o
 Clone o projeto
 
 ```bash
-  git@github.com:CarlosX26/react-ricky-and-morty-cards-scroll-infinte.git
+  git clone git@github.com:CarlosX26/react-ricky-and-morty-cards-scroll-infinte.git
 ```
 
 Entre no diretório do projeto
